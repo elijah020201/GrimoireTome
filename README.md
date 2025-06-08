@@ -2,7 +2,7 @@
 A C++ and Qt desktop application for creating and managing custom magical grimoires.
 # GrimoireTome: A Magical Grimoire Application
 
-(Screenshot 2025-06-07 203432.png)
+![Screenshot of GrimoireTome](grimoire-screenshot.png)
 
 A C++ and Qt desktop application for creating, managing, and theming custom magical grimoires. This project is a personal portfolio piece built to explore C++ application development, GUI design, third-party APIs, and cloud integration.
 
