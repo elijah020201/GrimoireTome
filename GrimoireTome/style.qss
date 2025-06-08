@@ -1,0 +1,63 @@
+/* Grimoire Application Stylesheet */
+
+/* Style the main window itself */
+QMainWindow {
+    background-image: url(:/IMG_4570.png);
+    border: 2px solid #5C4033; /* A dark, earthy brown */
+}
+
+/* Style all labels, including the moon phase label */
+QLabel {
+    color: #3D2B1F; /* A darker brown for text */
+    background-color: transparent; /* Make the label's background see-through */
+    /*
+       The font-family name must be the *actual* name of the font,
+       which is often different from its filename. "Oi" is the likely name for this font.
+    */
+    font-family: "Oi";
+    font-size: 12pt;
+}
+
+/* Style the list widgets for pages and spells */
+QListWidget {
+    font-family: "Oi";
+    font-size: 14pt;
+    background-color: rgba(245, 222, 179, 0.7); /* A semi-transparent "wheat" color */
+    border: 1px solid #8B4513; /* SaddleBrown */
+    color: #3D2B1F;
+}
+
+/* Style an item inside a list when it is selected */
+QListWidget::item:selected {
+    background-color: #8B4513; /* A rich brown */
+    color: #F5DEB3; /* A light "wheat" color for the text */
+}
+
+/* Style the large text box for spell details */
+QTextEdit {
+    font-family: "Oi";
+    background-color: rgba(245, 222, 179, 0.7);
+    border: 1px solid #8B4513;
+    color: #3D2B1F;
+    font-size: 12pt;
+}
+
+/* Style all push buttons */
+QPushButton {
+    font-family: "Oi";
+    font-size: 12pt;
+    color: #F5DEB3;
+    background-color: #5C4033; /* Dark brown background */
+    border: 2px solid #8B4513;
+    padding: 5px;
+    min-width: 80px;
+}
+
+/* Style for when you hover over or press a button */
+QPushButton:hover {
+    background-color: #8B4513; /* A lighter brown on hover */
+}
+
+QPushButton:pressed {
+    background-color: #3D2B1F; /* Darkest brown when pressed */
+}
